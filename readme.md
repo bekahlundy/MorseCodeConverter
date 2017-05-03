@@ -1,4 +1,4 @@
-### Morse Code Converter
+# Morse Code Converter
 
 The Morse code encodes every character as a sequence of "dots" and "dashes". 
 For example, the letter A is coded as ·−, letter Q is coded as −−·−, and digit 1 is coded as ·−−−. 
@@ -9,9 +9,10 @@ For example, the message HEY JUDE in Morse code is ···· · −·−− ·−
 
 NOTE: Extra spaces before or after the code have no meaning and should be ignored.
 
-In addition to letters, digits and some punctuation, there are some special service codes, the most notorious of those is the international distress signal SOS (that was first issued by Titanic), that is coded as ···−−−···. _These special codes are treated as single special characters, and usually are transmitted as separate words._
+In addition to letters, digits and some punctuation, there are some special service codes, the most notorious of those is the international distress signal SOS (that was first issued by Titanic), that is coded as ···−−−···.
+_These special codes are treated as single special characters, and usually are transmitted as separate words._
 
-Your task is to implement a function decodeMorse(morseCode), that would take the morse code as input and return a decoded human-readable string.
+#### Your task is to implement a function decodeMorse(morseCode), that would take the morse code as input and return a decoded human-readable string.
 
-##### Test Suite
+### Test Suite
 ![Passing Tests](http://i.imgur.com/EOTzScR.png)
