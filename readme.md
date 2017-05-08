@@ -12,7 +12,7 @@ NOTE: Extra spaces before or after the code have no meaning and should be ignore
 In addition to letters, digits and some punctuation, there are some special service codes, the most notorious of those is the international distress signal SOS (that was first issued by Titanic), that is coded as ···−−−···.
 _These special codes are treated as single special characters, and usually are transmitted as separate words._
 
-#### Your task is to implement a function decodeMorse(morseCode), that would take the morse code as input and return a decoded human-readable string.
+#### Your task is to implement a function that would take the morse code as input and return a decoded human-readable string.
 
 ### Test Suite
 ![Passing Tests](http://i.imgur.com/EOTzScR.png)
